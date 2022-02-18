@@ -35,17 +35,17 @@ npm install react-konva konva --save
 
 [react-canvas](https://github.com/Flipboard/react-canvas) is a completely
 different react plugin. It allows you to draw DOM-like objects (images, texts)
-on canvas elements in a very performant way. It is NOT designed for drawing graphics, but
+on canvas elements in a very performant way. It is NOT about drawing graphics, but
 react-konva serves exactly this purpose: drawing complex graphics on a `<canvas>` element from within
 React.
 
 ### react-konva vs react-art
 
 [react-art](https://github.com/reactjs/react-art) allows you to draw graphics on
-a page. It also supports SVG output. However, it has no support of events on
+a page. It also supports SVG output. But it has no support of events on
 shapes.
 
 ### react-konva vs vanilla canvas
 
-Vanilla canvases can be faster since `react-konva` comes with two layers of abstractions: (1) The `Konva` framework is on top of canvas and (2) `React` is on top of `Konva`. For many applications its performance is still very good. The purpose of `react-konva` is to reduce the complexity of your application and to use a well-known declarative way for drawing on canvases.
+Vanilla canvases can be faster since `react-konva` comes with two layers of abstractions: (1) The `Konva` framework is on top of canvas and (2) `React` is on top of `Konva`. For many applications it's performance is still very good. The purpose of `react-konva` is to reduce the complexity of your application and to use a well-known declarative way for drawing on canvases.
 
